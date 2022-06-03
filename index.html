@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+  <center>
+    <h1>Calculadora</h1>
+    <tr>
+      <div class="pepe">
+        <input type="text" id="resultado" onclick="">
+
+
+        <div>
+          <td><input type="button" class="operaciones" value="C" id="borrar" onclick="borrar()"></td>
+          <td><input type="button" class="operaciones" value="()" id="parentesis" onclick="parentesis()"></td>
+          <td> <input type="button" class="operaciones" value="/" id="division" onclick="division()"></td>
+          <div>
+            <td> <input type="button" class="numero" value="7" id="7" onclick="mostrar_numero(7)"></td>
+            <td> <input type="button" class="numero" value="8" id="8" onclick="mostrar_numero(8)"></td>
+            <td><input type="button" class="numero" value="9" id="9" onclick="mostrar_numero(9)"></td>
+            <td><input type="button" class="operaciones" value="*" id="multiplicacion" onclick="multiplicar()"></td>
+          </div>
+
+
+          <td><input type="button" class="numero" value="4" id="4" onclick="mostrar_numero(4)"></td>
+          <td><input type="button" class="numero" value="5" id="5" onclick="mostrar_numero(5)"></td>
+          <td><input type="button" class="numero" value="6" id="6" onclick="mostrar_numero(6)"></td>
+          <td><input type="button" class="operaciones" value="-" id="resta" onclick="resta()"></td>
+          <div>
+            <td><input type="button" class="numero" value="1" id="1" onclick="mostrar_numero(1)"></td>
+            <td><input type="button" class="numero" value="2" id="2" onclick="mostrar_numero(2)"></td>
+            <td><input type="button" class="numero" value="3" id="3" onclick="mostrar_numero(3)"></td>
+            <td><input type="button" class="operaciones" value="+" id="suma" onclick="suma()"></td>
+            <div>
+              <td><input type="button" class="numero" value="0" id="0" onclick="mostrar_numero(0)"></td>
+              <td><input type="button" class="operaciones" value="=" id="igual" onclick="igual()"></td>
+            </div>
+          </div>
+        </div>
+    </tr>
+    </div>
+
+  </center>
+
+
+</body>
+
+
+<script src="calculadora.js"></script>
+
+</html>

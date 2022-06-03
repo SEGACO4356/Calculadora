@@ -1,0 +1,64 @@
+* {
+  user-select: none;
+}
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.pepe {
+  width: 10%;
+  border: solid 2px rgb(0, 0, 0);
+  background-color: rgba(15, 5, 5, 0.671);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px;
+}
+
+.numero {
+  background-color: azure;
+  text-align: center;
+  outline: none;
+  padding: 15px;
+  height: 60px;
+  width: 40px;
+  font-size: 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 5px
+}
+
+.operaciones {
+  background-color: blue;
+  color: azure;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px;
+  text-align: center;
+ 
+}
+
+.button:hover {
+  background-color: aquamarine;
+}
+
+.button:active {
+  background-color: coral;
+  box-shadow: 3px;
+  transform: translateY(3px);
+}
+
+#resultado {
+  margin-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  width: 190px;
+  height: 50px;
+  border-radius: 5015px;
+}
